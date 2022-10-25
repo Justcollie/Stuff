@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  @font-face { font-family: Press-Start-2p; src: url('PressStart2P-vaV7.ttf'); }
+  @font-face { font-family: RO Spritendo; src: url('RoSpritendoSemiboldBeta-vmVwZ[1].otf'); }
+body {background-color: powderblue;
+background-image: url('Te.png');}
+h1   {color: white; text-align:center;  font-family: Press-Start-2P;}
+h3   {color: white; text-align:center; font-family: RO Spritendo;}
+h2 {color: white; text-align:center; font-family: RO Spritendo;}
+p    {color: white; text-align:center; font-family: RO Spritendo; font-size:16px; }
+ footer { position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 50px;   /* Height of the footer */
+   background: #6cf; }
+   
+   container-fluid {
+   position: relative-center;
+   top: -80px;
+   margin:auto;
+   }
+</style>
+ <script> window.scrollBy({
+	top: -100,
+	behavior: "smooth"
+});
+  </script>
+
+  </head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Colleen's website</a>
+    </div>
+    <ul class="nav navbar-nav">
+       <li><a href="http://eve.kean.edu/~kirkpatc/Home.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+      <li><a href="http://eve.kean.edu/~kirkpatc/About Me.html"><i class="fa fa-fw fa-user"></i>About Me</a></li>
+      <li class="active"><a href="http://eve.kean.edu/~kirkpatc/Contact Me.html"><i class="fa fa-fw fa-envelope"></i>Contact Me</a></li>
+      <li><a href="http://eve.kean.edu/~kirkpatc/Work Experience.html"><i class="fa fa-globe"></i> My Work Experience</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container-fluid">
+  <h1>Welcome to my contact page! </h1>
+  <p style="font-size:12px;"> Feel free to contact me!  </p>
+  <p style="font-size:12px;">I will respond to you as soon as possible!</p>
+
+
+      <h2>Contact Me!</h2>
+      <p>Please fill out this form.</p>
+
+      <form method = "POST" action = "http://eve.kean.edu/~kirkpatc/receiver2.php">
+
+         <input type = "hidden" name = "recipient" value = "kirkpatc">
+         <input type = "hidden" name = "subject"  value = "Feedback Form">
+         <p><label>Name: <br>
+               <input name = "name" type = "text" size = "25">
+            </label></p>
+ 
+         <!-- <textarea> creates a multiline textbox -->
+         <p><label>Comments:<br>
+            <textarea name = "comments"
+               rows = "3" cols = "25">Erase this & enter comments here.</textarea>
+         </label></p>
+
+         <p><label>E-mail Address:<br>
+            <input name = "email" type = "password"  size = "25">
+         </label></p>             
+
+         <p>
+            <input type = "submit" value = "Submit" style= "color: black;">
+            <input type = "reset" value = "Clear" style= "color: black;">
+         </p>   
+      </form>
+</div>
+
+  </body>
+  <footer class="w3-container w3-teal w3-center w3-margin-top">
+  Find me on social media. <br>
+  <a href=https://www.facebook.com/><i class="fa fa-facebook-official w3-hover-opacity fa-lg"></i>
+  
+  <a href=https://www.instagram.com/><i class="fa fa-instagram w3-hover-opacity fa-lg"></i>
+  
+  <a href=https://www.snapchat.com/><i class="fa fa-snapchat w3-hover-opacity fa-lg"></i>
+  
+  <a href=https://www.pinterest.com/><i class="fa fa-pinterest-p w3-hover-opacity fa-lg"></i>
+  
+  <a href=https://www.linkedin.com/in/colleen-kirkpatrick-486a62132/><i class="fa fa-linkedin w3-hover-opacity fa-lg"></i>
+
+
+</footer>
+  
+</html>
